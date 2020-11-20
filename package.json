@@ -1,6 +1,6 @@
 {
   "name": "caiyi-editor",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "cy-editor React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -22,6 +22,15 @@
   },
   "dependencies": {
     "classnames": "^2.2.6"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "nwb": "0.25.x",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   },
   "author": "caiyi",
   "homepage": "https://github.com/chdyiboke/caiyi-editor",
