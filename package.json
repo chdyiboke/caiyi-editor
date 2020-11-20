@@ -1,0 +1,33 @@
+{
+  "name": "caiyi-editor",
+  "version": "1.0.0",
+  "description": "cy-editor React component",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && nwb clean-demo",
+    "prepublishOnly": "npm run build",
+    "dev": "nwb serve-react-demo",
+    "start": "nwb serve-react-demo",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  },
+  "author": "caiyi",
+  "homepage": "https://github.com/chdyiboke/caiyi-editor",
+  "license": "MIT",
+  "repository": "https://github.com/chdyiboke/caiyi-editor",
+  "keywords": [
+    "react-component"
+  ]
+}
