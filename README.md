@@ -1,7 +1,6 @@
 # caiyi-editor
 A npm package of react component. 
 
-[git](github.com/chdyiboke/caiyi-editor)
 npm地址：https://www.npmjs.com/package/caiyi-editor
 
 ## use
@@ -28,6 +27,8 @@ export default class extends Component {
 
 
 ## code develop
+
+[git 代码地址](github.com/chdyiboke/caiyi-editor)  
 
 ```
 npm run dev
