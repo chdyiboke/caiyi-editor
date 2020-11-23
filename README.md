@@ -1,7 +1,8 @@
 # caiyi-editor
 A npm package of react component. 
 
-地址：https://www.npmjs.com/package/caiyi-editor
+[git](github.com/chdyiboke/caiyi-editor)
+npm地址：https://www.npmjs.com/package/caiyi-editor
 
 ## use
 ```
