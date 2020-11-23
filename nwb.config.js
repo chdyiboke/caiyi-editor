@@ -1,18 +1,10 @@
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+// 解决 build 没有less和css https://github.com/insin/nwb/issues/191 
+// loader 配置文档写的不咋样，但是提供了 nwb-less.
 
 module.exports = {
   type: "react-component",
   webpack: {
-  //   rules: {
-  //     test: /\.(css|less)?$/,
-  //     use: [
-  //       MiniCssExtractPlugin.loader,
-  //       "css-loader",
-  //       {
-  //         loader: "less-loader",
-  //       }
-  //     ]
-  //   },
     extractCSS: {
       MiniCssExtractPlugin: true,
       filename:

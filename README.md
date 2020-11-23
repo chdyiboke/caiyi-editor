@@ -1,19 +1,39 @@
 # caiyi-editor
-A npm package.
+A npm package of react component. 
 
-## 开发
+地址：https://www.npmjs.com/package/caiyi-editor
+
+## use
+```
+npm i caiyi-editor
+```
+
+```
+// index.jsx
+import React, {Component} from 'react'
+import CEditor from 'caiyi-editor'
+
+export default class extends Component {
+  render() {
+    return <div>
+      <h2>caiyi-editor</h2>
+      <div>will be development...</div>
+      <div>下面是 CEditor 内容</div>
+      <CEditor />
+    </div>
+  }
+}
+```
+
+
+## code develop
 
 ```
 npm run dev
 ```
 
-## 打包
+## code build
 
 ```
 npm run build
 ```
-
-# TODO
-extraction of .css files in builds - 抽离css
-https://github.com/insin/nwb/blob/master/docs/Configuration.md#configuration-object
-
